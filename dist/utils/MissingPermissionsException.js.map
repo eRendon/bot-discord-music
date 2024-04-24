@@ -1,0 +1,1 @@
+{"version":3,"file":"MissingPermissionsException.js","sourceRoot":"","sources":["../../utils/MissingPermissionsException.ts"],"names":[],"mappings":";;;AAAA,MAAa,2BAA2B;IAGnB;IAFZ,OAAO,GAAG,sBAAsB,CAAC;IAExC,YAAmB,WAAqB;QAArB,gBAAW,GAAX,WAAW,CAAU;IAAG,CAAC;IAErC,QAAQ;QACb,OAAO,GAAG,IAAI,CAAC,OAAO,IAAI,IAAI,CAAC,WAAW,CAAC,IAAI,CAAC,IAAI,CAAC,EAAE,CAAC;IAC1D,CAAC;CACF;AARD,kEAQC"}
