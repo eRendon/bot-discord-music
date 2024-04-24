@@ -13,3 +13,22 @@ export const bot = new Bot(
     ]
   })
 );
+
+export const handler = async () => {
+  try {
+    // Lógica de tu función aquí
+    // Por ejemplo, conectar el bot
+    await bot.client.on('on', () => {
+      console.log('bot on')
+    });
+    return {
+      statusCode: 200,
+      body: JSON.stringify('Función ejecutada correctamente'),
+    };
+  } catch (error) {
+    return {
+      statusCode: 500,
+      body: JSON.stringify('Ocurrió un error al ejecutar la función'),
+    };
+  }
+};
